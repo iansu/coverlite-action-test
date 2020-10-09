@@ -29,3 +29,5 @@ jobs:
         uses: uncoveredapp/action@v1
         with:
           uncoveredToken: ${{ secrets.UNCOVERED_TOKEN }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
